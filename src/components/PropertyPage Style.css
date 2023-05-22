@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#the-prop-container{
+    height: fit-content;  
+    position: relative;
+    padding: 5px;
+}
+
+#top-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+#the-prop-img{
+    
+    background-color: rgb(87, 137, 138);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+
+#the-img{
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+
+#the-prop-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 50% ;
+}
+#adress{
+    width: 95%;
+    height: fit-content;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: lightgray;
+    margin: 5px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+#the-prop-img::after{
+    width: 100%;
+    height: 60%;
+    rotate: -45deg;
+    z-index: 6;
+    position: absolute;
+    content: attr(dataadredd);
+    background-color: black;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    color: white;
+    font-size: 30px;
+    font-family: "Lilita One";
+    bottom: -30%;
+    right: -50%;
+    justify-content: center;
+
+}
+
+
+
+.info-bubble{
+    width: 200px;
+    height: 60px;
+    padding: 20px;
+    background-color: lightgray;
+    margin: 5px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.info-bubble:hover{
+background-color: rgb(186, 186, 186);
+cursor: pointer;
+scale: 110%;
+}
+
+#info-bubble-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+
+@media screen and (max-width: 768px) {
+    #top-section{
+    flex-direction: column;
+    align-items: center;
+    }
+    #the-prop-img{
+        width: 90%; 
+    }
+
+    #the-prop-info{
+        width: 100%;
+    }
+
+}

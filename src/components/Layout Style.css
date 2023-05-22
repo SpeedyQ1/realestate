@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#container{
+    min-height: 100vh;
+    background-color: bisque;
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: cadetblue;
+    height: 50px;
+
+}
+
+#prop-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+a{
+    all: unset;
+    cursor: pointer;
+}
