@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#main-img{
+    /* height: 50vh;
+    width: 100%; */
+    position: relative;
+}
+
+#image{
+    margin-top: 25px;
+    height: 70vh;
+    width: 100%;
+    object-fit: fill;
+}
+
+#intrudoction{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#position-divs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#carusle{
+    margin-bottom: 20px;
+    
+}
+
+#about-us-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#about-us{
+    width: 60vw;
+    height: auto;
+    border-style: solid;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
